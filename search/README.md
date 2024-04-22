@@ -1,17 +1,10 @@
-<div class="col-lg" role="main"
-style="margin-bottom: 260px; margin-top: 58.2118px;">
-
 <span id="search" data-id="" style="top: -58.2118px;"></span>
 
 # <a href="#search" data-id="">Search</a>
 
-<div class="alert alert-warning" alert="warning" role="alert">
-
 Lectures 1 and 2 are not required to complete this project, but may
 prove helpful if you’re struggling to *submit* it, since they teach Git,
 among other topics!
-
-</div>
 
 Design a front-end for Google Search, Google Image Search, and Google
 Advanced Search.
@@ -44,17 +37,9 @@ string. The query string consists of a sequence of GET parameters, where
 each parameter has a name and a value. Query strings are generally
 formatted as
 
-<div class="language-plaintext highlighter-rouge">
-
-<div class="highlight">
-
 ``` highlight
 field1=value1&field2=value2&field3=value3...
 ```
-
-</div>
-
-</div>
 
 where an `=` separates the name of the parameter from its value, and the
 `&` symbol separates parameters from one another. These parameters are a
@@ -82,11 +67,7 @@ Google’s homepage. Paste the below into an HTML file called
 `index.html`, and open it in a browser. You can alternatively download
 the `index.html` file directly from the “Getting Started” section below.
 
-<div class="language-plaintext highlighter-rouge">
-
-<div class="highlight">
-
-``` highlight
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,10 +81,6 @@ the `index.html` file directly from the “Getting Started” section below.
 </body>
 </html>
 ```
-
-</div>
-
-</div>
 
 When you open this page in a browser, you should see a (very simple)
 HTML form. Type in a search query like “Harvard” and click “Google
@@ -215,8 +192,6 @@ Your website must meet the following requirements:
 2.  [Install Git](https://git-scm.com/downloads) and, optionally,
     [install `submit50`](https://cs50.readthedocs.io/submit50/).
 
-<div class="alert alert-success" alert="success" role="alert">
-
 When you submit your project, the contents of your
 `web50/projects/2020/x/search` branch should match the file structure of
 the unzipped distribution code as originally received. That is to say,
@@ -234,21 +209,11 @@ below) your submission for `index.html` for this project should be what
 appears. If it doesn’t, reorganize your repository as needed to match
 this paradigm.
 
-</div>
-
 3.  If you’ve installed `submit50`, execute
-
-    <div class="language-plaintext highlighter-rouge">
-
-    <div class="highlight">
 
     ``` highlight
     submit50 web50/projects/2020/x/search
     ```
-
-    </div>
-
-    </div>
 
     Otherwise, using Git, push your work to
     `https://github.com/me50/USERNAME.git`, where `USERNAME` is your
@@ -275,5 +240,3 @@ this paradigm.
 
 You can then go to <https://cs50.me/cs50w> to view your current
 progress!
-
-</div>
