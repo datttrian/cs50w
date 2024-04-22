@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <title>Google</title>
-  </head>
-
-  <body>
-    <nav>
-      <ul>
-        <li><a href="image.html">Image Search</a></li>
-        <li><a href="advanced.html">Advanced search</a></li>
-      </ul>
-    </nav>
-    <div class="center">
-      <header>
-          <h1>Google</h1>
-      </header>
-      <form action="https://google.com/search">
-          <input type="text" name="q">
-          <input type="submit" class="btnGray" value="Google Search">
-          <input type="submit" class="btnGray" value="I'm Feeling Lucky" name="btnI" jsaction="sf.lck">
-      </form>
-    </div>
-  </body>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="Search Google">
+      <input type="submit" value="Google Search">
+      <a href="image.html">Image Search</a>
+      <a href="advanced.html">Advanced Search</a>
+    </form>
+  </div>
+</body>
 </html>
