@@ -1,6 +1,17 @@
-# Search
+<span id="search" data-id="" style="top: -58.2118px;"></span>
 
-## Background
+# <a href="#search" data-id="">Search</a>
+
+Lectures 1 and 2 are not required to complete this project, but may
+prove helpful if you’re struggling to *submit* it, since they teach Git,
+among other topics!
+
+Design a front-end for Google Search, Google Image Search, and Google
+Advanced Search.
+
+<span id="background" data-id="" style="top: -58.2118px;"></span>
+
+## <a href="#background" data-id="">Background</a>
 
 Recall from lecture that we can create an HTML form using a `<form>` tag
 and can add `<input>` tags to create input fields for that form. Later
@@ -56,7 +67,7 @@ Google’s homepage. Paste the below into an HTML file called
 `index.html`, and open it in a browser. You can alternatively download
 the `index.html` file directly from the “Getting Started” section below.
 
-``` html
+``` highlight
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +97,9 @@ front end for Google Search, as by exploring Google’s interface to
 identify what GET parameters it expects and adding the necessary HTML
 and CSS to your website.
 
-## Getting Started
+<span id="getting-started" data-id="" style="top: -58.2118px;"></span>
+
+## <a href="#getting-started" data-id="">Getting Started</a>
 
 - <span class="fa-li"></span>Download the distribution code from
   <https://cdn.cs50.net/web/2020/spring/projects/0/search.zip> and unzip
@@ -94,7 +107,9 @@ and CSS to your website.
   file by following the steps outlined in the “Background” section
   above.
 
-## Specification
+<span id="specification" data-id="" style="top: -58.2118px;"></span>
+
+## <a href="#specification" data-id="">Specification</a>
 
 Your website must meet the following requirements:
 
@@ -144,7 +159,7 @@ Your website must meet the following requirements:
 
 <span id="hints" data-id="" style="top: -58.2118px;"></span>
 
-## Hints
+## <a href="#hints" data-id="">Hints</a>
 
 - <span class="fa-li"></span>To determine what the parameter names
   should be, you’re welcome to experiment with making Google searches,
@@ -167,7 +182,7 @@ Your website must meet the following requirements:
 
 <span id="how-to-submit" data-id="" style="top: -58.2118px;"></span>
 
-## How to Submit
+## <a href="#how-to-submit" data-id="">How to Submit</a>
 
 1.  Visit [this
     link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947),
