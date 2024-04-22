@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Advanced Search</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <form action="https://www.google.com/search">
-            <div class="advanced-search">
-                <label for="all-words">Find pages with all these words:</label>
-                <input type="text" id="all-words" name="allwords" class="search-field"><br>
-                <label for="exact-phrase">Find pages with this exact word or phrase:</label>
-                <input type="text" id="exact-phrase" name="exact" class="search-field"><br>
-                <label for="any-words">Find pages with any of these words:</label>
-                <input type="text" id="any-words" name="anywords" class="search-field"><br>
-                <label for="none-words">Find pages with none of these words:</label>
-                <input type="text" id="none-words" name="nonewords" class="search-field"><br>
-            </div>
-            <input type="submit" value="Advanced Search" class="advanced-btn">
-            <a href="index.html" class="link">Back to Google Search</a>
-        </form>
-    </div>
+  <div class="container">
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="as_q" placeholder="All these words">
+      <input type="text" name="as_epq" placeholder="This exact word or phrase">
+      <input type="text" name="as_oq" placeholder="Any of these words">
+      <input type="text" name="as_eq" placeholder="None of these words">
+      <input type="submit" value="Advanced Search">
+      <a href="index.html">Back to Google Search</a>
+    </form>
+  </div>
 </body>
 </html>
