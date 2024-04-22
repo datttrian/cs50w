@@ -1,17 +1,6 @@
-<span id="search" data-id="" style="top: -58.2118px;"></span>
+# Search
 
-# <a href="#search" data-id="">Search</a>
-
-Lectures 1 and 2 are not required to complete this project, but may
-prove helpful if you’re struggling to *submit* it, since they teach Git,
-among other topics!
-
-Design a front-end for Google Search, Google Image Search, and Google
-Advanced Search.
-
-<span id="background" data-id="" style="top: -58.2118px;"></span>
-
-## <a href="#background" data-id="">Background</a>
+## Background
 
 Recall from lecture that we can create an HTML form using a `<form>` tag
 and can add `<input>` tags to create input fields for that form. Later
