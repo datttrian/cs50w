@@ -86,9 +86,7 @@ front end for Google Search, as by exploring Google’s interface to
 identify what GET parameters it expects and adding the necessary HTML
 and CSS to your website.
 
-<span id="getting-started" data-id="" style="top: -58.2118px;"></span>
-
-## <a href="#getting-started" data-id="">Getting Started</a>
+## Getting Started
 
 - <span class="fa-li"></span>Download the distribution code from
   <https://cdn.cs50.net/web/2020/spring/projects/0/search.zip> and unzip
@@ -96,9 +94,7 @@ and CSS to your website.
   file by following the steps outlined in the “Background” section
   above.
 
-<span id="specification" data-id="" style="top: -58.2118px;"></span>
-
-## <a href="#specification" data-id="">Specification</a>
+## Specification
 
 Your website must meet the following requirements:
 
@@ -148,7 +144,7 @@ Your website must meet the following requirements:
 
 <span id="hints" data-id="" style="top: -58.2118px;"></span>
 
-## <a href="#hints" data-id="">Hints</a>
+## Hints
 
 - <span class="fa-li"></span>To determine what the parameter names
   should be, you’re welcome to experiment with making Google searches,
