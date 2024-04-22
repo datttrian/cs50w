@@ -167,7 +167,7 @@ Your website must meet the following requirements:
 
 <span id="how-to-submit" data-id="" style="top: -58.2118px;"></span>
 
-## <a href="#how-to-submit" data-id="">How to Submit</a>
+## How to Submit
 
 1.  Visit [this
     link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947),
