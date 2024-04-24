@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Google</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Google Advanced Search</title>
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <img class="logo" src="images/logo.png" alt="logo">
-                <ul>
-                    <li><a class="subtle-text" href="image.html">Google Image Search</a></li>
-                    <li><a class="subtle-text" href=#>Google Advanced Search</a></li>
-                    <li class="circular-menu"><img class="menu-icon" src="images/menu.png" alt="menu button">
-                    </li>
-                    <li><img class="avatar" src="images/profile.png" alt="profile pic">
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=#>About</a></li>
+                <li><a href=#>Store</a></li>
+            </ul>
+            <ul>
+                <li><a class="subtle-text" href="image.html">Google Image Search</a></li>
+                <li><a class="subtle-text" href=#>Google Advanced Search</a></li>
+                <li class="circular-menu"><img class="menu-icon" src="images/menu.png" alt="menu button">
+                </li>
+                <li><img class="avatar" src="images/profile.png" alt="profile pic">
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <section class="search-section">
-            <div>Find Pages With....</div>
-            <form action="https://google.com/search" id="s1zaZb" method="GET">
-                <div>
-                    <label for="all">all these words:</label>
-                    <input value="" autofocus="autofocus" id="all" name="as_q" type="text">
-                    <span>Type the important words: tri-colour rat terrier</span>
-                </div>
-
-                <div>
-                    <label for="exact">this exact word or phrase:</label>
-                    <input value="" id="exact" name="as_epq" type="text">
-                    <span>Put exact words in quotes: "rat terrier"</span>
-                </div>
-
-                <div>
-                    <label for="any">any of these words:</label>
-                    <input value="" id="any" name="as_oq" type="text">
-                    <span>Type OR between all the words you want: miniature OR standard</span>
-                </div>
-
-                <div>
-                    <label for="none">none of these words:</label>
-                    <input value="" id="none" name="as_eq" type="text">
-                    <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
-                </div>
-
-                <input value="Advanced Search" type="submit">
-        </section>
-
-        <footer>
-            <div class="panel">
-                <p>Canada</p>
+    <section class="search-section">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <form action="https://google.com/search" method="GET" role="search">
+            <img class="search-icon" src="images/search.png">
+            <img class="voice-icon" src="images/Google_Voice_Icon.png">
+            <img class="image-icon" src="images/Google_Lens_Icon.png">
+            <input type="text" name="q" placeholder="Search Google">
+            <div class="action-buttons">
+                <button type="submit" name="btnG" value="Google Search">Google Search</button>
+                <button type="submit" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
             </div>
-            <div class="panel">
-                <ul>
-                    <li><a href=#>Advertising</a></li>
-                    <li><a href=#>Business</a></li>
-                    <li><a href=#>How Search Works</a></li>
-                </ul>
-                <ul class="right">
-                    <li><a href=#>Privacy</a></li>
-                    <li><a href=#>Terms</a></li>
-                    <li><a href=#>Settings</a></li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+        </form>
+    </section>
+
+    <footer>
+        <div class="panel">
+            <p>Canada</p>
+        </div>
+        <div class="panel">
+            <ul>
+                <li><a href=#>Advertising</a></li>
+                <li><a href=#>Business</a></li>
+                <li><a href=#>How Search Works</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href=#>Privacy</a></li>
+                <li><a href=#>Terms</a></li>
+                <li><a href=#>Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
 
 </html>
