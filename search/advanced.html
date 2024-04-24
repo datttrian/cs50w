@@ -28,7 +28,7 @@
 
     <section class="search-section">
         <img class="logo" src="images/logo.png" alt="logo">
-        <form action="https://google.com/search" method="GET" role="search">
+        <form action="https://www.google.com/search" method="GET" role="search">
             <img class="search-icon" src="images/search.png">
             <img class="voice-icon" src="images/Google_Voice_Icon.png">
             <img class="image-icon" src="images/Google_Lens_Icon.png">
@@ -36,6 +36,34 @@
             <div class="action-buttons">
                 <button type="submit" name="btnG" value="Google Search">Google Search</button>
                 <button type="submit" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+            </div>
+            <div>
+                <label for="as_sitesearch">Search within a site:</label>
+                <input type="text" id="as_sitesearch" name="as_sitesearch">
+            </div>
+            <div>
+                <label for="as_filetype">Search for a file type:</label>
+                <input type="text" id="as_filetype" name="as_filetype">
+            </div>
+            <div>
+                <label for="as_qdr">Search by date range:</label>
+                <select id="as_qdr" name="as_qdr">
+                    <option value="">Any time</option>
+                    <option value="d">Past day</option>
+                    <option value="w">Past week</option>
+                    <option value="m">Past month</option>
+                    <option value="y">Past year</option>
+                </select>
+            </div>
+            <div>
+                <label for="as_rights">Usage rights:</label>
+                <select id="as_rights" name="as_rights">
+                    <option value="">Not filtered by license</option>
+                    <option value="cc_publicdomain">Free to use or share</option>
+                    <option value="cc_attribute">Free to use or share, even commercially</option>
+                    <option value="cc_sharealike">Free to use, share, or modify</option>
+                    <option value="cc_noncommercial">Free to use, share, or modify, even commercially</option>
+                </select>
             </div>
         </form>
     </section>

@@ -2,5 +2,6 @@
     "gitdoc.enabled": true,
     "git.autofetch": true,
     "git.rememberPostCommitCommand": false,
-    "git.postCommitCommand": "push"
+    "git.postCommitCommand": "push",
+    "liveServer.settings.port": 5501
 }
