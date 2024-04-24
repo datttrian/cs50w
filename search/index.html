@@ -1,19 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Search</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Google</title>
 </head>
+
 <body>
-  <div class="container">
-    <form action="https://www.google.com/search" method="get">
-      <input type="text" name="q" placeholder="Search Google">
-      <input type="submit" value="Google Search">
-      <a href="image.html">Image Search</a>
-      <a href="advanced.html">Advanced Search</a>
+  <header>
+    <nav>
+      <ul>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Store</a></li>
+      </ul>
+      <ul>
+        <li><a class="subtle-text" href=#>Image Search</a></li>
+        <li><a class="subtle-text" href=#>Advanced Search</a></li>
+        <li class="circular-menu"><img class="menu-icon" src="images/menu.png" alt="menu button">
+        </li>
+        <li><img class="avatar" src="images/profile.png" alt="profile pic">
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="search-section">
+    <img class="logo" src="images/logo.png" alt="logo">
+    <form>
+      <img class="search-icon" src="images/search.png">
+      <img class="voice-icon" src="images/Google_Voice_Icon.png">
+      <img class="image-icon" src="images/Google_Lens_Icon.png">
+      <input type="text">
+      <div class="action-buttons">
+        <button type="button">Google Search</button>
+        <button type="button">I'm Feeling Lucky</button>
+      </div>
     </form>
-  </div>
+  </section>
+
+  <footer>
+    <div class="panel">
+      <p>Canada</p>
+    </div>
+    <div class="panel">
+      <ul>
+        <li><a href=#>Advertising</a></li>
+        <li><a href=#>Business</a></li>
+        <li><a href=#>How Search Works</a></li>
+      </ul>
+      <ul class="right">
+        <li><a href=#>Privacy</a></li>
+        <li><a href=#>Terms</a></li>
+        <li><a href=#>Settings</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
+
 </html>
