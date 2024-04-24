@@ -67,7 +67,7 @@ Google’s homepage. Paste the below into an HTML file called
 `index.html`, and open it in a browser. You can alternatively download
 the `index.html` file directly from the “Getting Started” section below.
 
-``` highlight
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
